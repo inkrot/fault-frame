@@ -1,0 +1,48 @@
+{
+  "name": "fault-frame",
+  "version": "1.0.2",
+  "description": "Beautiful JavaScript error overlay for server API errors",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "prepublishOnly": "yarn build",
+    "verify": "bash scripts/verify-package.sh",
+    "demo:install": "cd demo && yarn install",
+    "demo:dev": "cd demo && yarn dev",
+    "demo:build": "cd demo && yarn build",
+    "demo": "yarn build && yarn demo:install && yarn demo:dev"
+  },
+  "keywords": [
+    "error",
+    "overlay",
+    "vite",
+    "api",
+    "symfony",
+    "laravel",
+    "express",
+    "axios",
+    "debugging",
+    "stack-trace"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fault-frame.git"
+  },
+  "peerDependencies": {
+    "axios": "^1.0.0"
+  },
+  "devDependencies": {
+    "axios": "^1.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}

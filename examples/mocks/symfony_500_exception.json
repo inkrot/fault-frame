@@ -1,0 +1,147 @@
+{
+  "type": "https://tools.ietf.org/html/rfc2616#section-10",
+  "title": "An error occurred",
+  "status": 500,
+  "detail": "Warning: mkdir(): Permission denied",
+  "class": "ErrorException",
+  "trace": [
+    {
+      "namespace": "",
+      "short_class": "",
+      "class": "",
+      "type": "",
+      "function": "",
+      "file": "/var/www/app/src/Service/FileUploadService.php",
+      "line": 118,
+      "args": []
+    },
+    {
+      "namespace": "App\\Service",
+      "short_class": "FileUploadService",
+      "class": "App\\Service\\FileUploadService",
+      "type": "->",
+      "function": "uploadFile",
+      "file": "/var/www/app/src/Controller/AdminPanel/AdminMessengerController.php",
+      "line": 761,
+      "args": [
+        [
+          "object",
+          "Symfony\\Component\\HttpFoundation\\File\\UploadedFile"
+        ],
+        [
+          "string",
+          "chat_message_files"
+        ],
+        [
+          "integer",
+          1
+        ],
+        [
+          "integer",
+          52428800
+        ]
+      ]
+    },
+    {
+      "namespace": "App\\Controller\\AdminPanel",
+      "short_class": "AdminMessengerController",
+      "class": "App\\Controller\\AdminPanel\\AdminMessengerController",
+      "type": "->",
+      "function": "sendMessage",
+      "file": "/var/www/app/vendor/symfony/http-kernel/HttpKernel.php",
+      "line": 183,
+      "args": [
+        [
+          "integer",
+          2
+        ],
+        [
+          "object",
+          "Symfony\\Component\\HttpFoundation\\Request"
+        ]
+      ]
+    },
+    {
+      "namespace": "Symfony\\Component\\HttpKernel",
+      "short_class": "HttpKernel",
+      "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+      "type": "->",
+      "function": "handleRaw",
+      "file": "/var/www/app/vendor/symfony/http-kernel/HttpKernel.php",
+      "line": 76,
+      "args": [
+        [
+          "object",
+          "Symfony\\Component\\HttpFoundation\\Request"
+        ],
+        [
+          "integer",
+          1
+        ]
+      ]
+    },
+    {
+      "namespace": "Symfony\\Component\\HttpKernel",
+      "short_class": "HttpKernel",
+      "class": "Symfony\\Component\\HttpKernel\\HttpKernel",
+      "type": "->",
+      "function": "handle",
+      "file": "/var/www/app/vendor/symfony/http-kernel/Kernel.php",
+      "line": 182,
+      "args": [
+        [
+          "object",
+          "Symfony\\Component\\HttpFoundation\\Request"
+        ],
+        [
+          "integer",
+          1
+        ],
+        [
+          "boolean",
+          true
+        ]
+      ]
+    },
+    {
+      "namespace": "Symfony\\Component\\HttpKernel",
+      "short_class": "Kernel",
+      "class": "Symfony\\Component\\HttpKernel\\Kernel",
+      "type": "->",
+      "function": "handle",
+      "file": "/var/www/app/vendor/symfony/runtime/Runner/Symfony/HttpKernelRunner.php",
+      "line": 35,
+      "args": [
+        [
+          "object",
+          "Symfony\\Component\\HttpFoundation\\Request"
+        ]
+      ]
+    },
+    {
+      "namespace": "Symfony\\Component\\Runtime\\Runner\\Symfony",
+      "short_class": "HttpKernelRunner",
+      "class": "Symfony\\Component\\Runtime\\Runner\\Symfony\\HttpKernelRunner",
+      "type": "->",
+      "function": "run",
+      "file": "/var/www/app/vendor/autoload_runtime.php",
+      "line": 29,
+      "args": []
+    },
+    {
+      "namespace": "",
+      "short_class": "",
+      "class": "",
+      "type": "",
+      "function": "require_once",
+      "file": "/var/www/app/public/index.php",
+      "line": 5,
+      "args": [
+        [
+          "string",
+          "/var/www/app/vendor/autoload_runtime.php"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Demo folder - only for development/testing
+demo/
+
+# Source files (only dist should be published)
+src/
+examples/
+
+# Config files
+tsconfig.json
+tsup.config.ts
+.gitignore
+
+# Documentation (except README)
+*.md
+!README.md
+!LICENSE
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.log
+*.tsbuildinfo
+node_modules/

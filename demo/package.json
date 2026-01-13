@@ -1,0 +1,23 @@
+{
+  "name": "fault-frame-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "php -S localhost:8000 -t server",
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\""
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "fault-frame": "file:.."
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "concurrently": "^8.2.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0"
+  }
+}
