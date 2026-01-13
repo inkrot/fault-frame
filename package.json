@@ -13,7 +13,6 @@
   "scripts": {
     "build": "tsup src/index.ts --format cjs,esm --dts --clean",
     "prepublishOnly": "yarn build",
-    "verify": "bash scripts/verify-package.sh",
     "demo:install": "cd demo && yarn install",
     "demo:dev": "cd demo && yarn dev",
     "demo:build": "cd demo && yarn build",

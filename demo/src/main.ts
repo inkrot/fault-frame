@@ -18,8 +18,10 @@ FaultFrame.init({
 // Create Fetch wrapper
 const fetchWithErrors = createFetchWithFaultFrame(FaultFrame.getInstance());
 
-// API URL from environment variable or fallback
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+// API URL
+const API_URL = import.meta.env.PROD
+  ? 'https://fault-frame.inkrot.ru/demo'
+  : 'http://localhost:8000';
 
 console.log('🌐 API URL:', API_URL);
 
