@@ -31,11 +31,11 @@
     "debugging",
     "stack-trace"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "Islam Zaripov <mr.inkrot@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/fault-frame.git"
+    "url": "https://github.com/inkrot/fault-frame.git"
   },
   "peerDependencies": {
     "axios": "^1.0.0"
