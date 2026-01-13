@@ -22,6 +22,10 @@ Automatically catches and displays errors from backend frameworks like Symfony, 
 - Works with React, Vue, vanilla JS
 - Backend framework-specific parsers (Symfony, Laravel, Express)
 
+## Demo
+
+**[Try Live Demo →](https://fault-frame.inkrot.ru/demo)**
+
 ## Screenshots
 
 <div align="center">
@@ -43,10 +47,6 @@ yarn add fault-frame
 ```
 
 > **Note:** If using with axios, you need to install it separately.
-
-## Demo
-
-**[Try Live Demo →](https://fault-frame.inkrot.ru/demo)**
 
 ## Quick Start
 
