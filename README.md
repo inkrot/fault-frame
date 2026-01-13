@@ -4,9 +4,7 @@
 
 <img src="./logo.svg" alt="FaultFrame Logo" width="300" />
 
-**Frontend browser library** for beautiful and convenient viewing of JSON error responses from server frameworks.
-
-Automatically catches and displays errors from backend frameworks like Symfony, Laravel, and Express in a beautiful and user-friendly overlay.
+Frontend library that automatically catches and displays errors from backend frameworks (Symfony, Laravel, Express) in a beautiful overlay with stack traces and request details.
 
 [![npm version](https://img.shields.io/npm/v/fault-frame.svg)](https://www.npmjs.com/package/fault-frame)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -26,15 +24,9 @@ Automatically catches and displays errors from backend frameworks like Symfony, 
 
 **[Try Live Demo →](https://fault-frame.inkrot.ru/demo)**
 
-## Screenshots
-
 <div align="center">
 
-### Toast Notification
-<img src="./screenshots/toast-notification.png" alt="Toast Notification" width="600" />
-
-### Error Overlay
-<img src="./screenshots/error-overlay.png" alt="Error Overlay" width="800" />
+<img src="./screenshots/demo-screenshot.png" alt="FaultFrame Demo" width="800" />
 
 </div>
 
